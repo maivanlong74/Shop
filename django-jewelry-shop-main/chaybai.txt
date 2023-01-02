@@ -1,0 +1,28 @@
+Cài đặt môi trường ảo trước
+    $  pip install virtualenv
+Tạo môi trường ảo Cho cửa sổ
+    $  python -m venv venv
+Kích hoạt môi trường ảo Cho cửa sổ
+    $  source venv/scripts/activate
+3. Sao chép dự án này
+    $  git clone https://github.com/vijaythapa333/django-jewelry-shop.git
+Sau đó, Nhập dự án
+    $  cd django-jewelry-shop
+4. Cài đặt Yêu cầu từ 'requirements.txt'
+    $  pip install -r requirements.txt  
+5. Thêm máy chủ
+    Got to settings.py file
+Sau đó, trên các máy chủ được phép, hãy thêm ['*'].
+    ALLOWED_HOSTS = ['*']
+6. Bây giờ chạy máy chủ
+Lệnh cho PC:
+    $ python manage.py runserver
+7. Thông tin đăng nhập
+Tạo Siêu người dùng (Quản trị viên)
+Lệnh cho PC:
+    $  python manage.py createsuperuser
+Then Add Email, Username and Password
+
+Tài Khoản ADMIN 
+user: admin 
+pass: admin
